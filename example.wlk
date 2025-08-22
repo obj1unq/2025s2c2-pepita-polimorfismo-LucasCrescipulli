@@ -57,10 +57,13 @@ object pepón{
 
 object roque{
 	var ave = pepita
+	var cenas = 0
 	method ave(_ave){
 		ave = _ave
+		cenas = 0
 	}
 	method alimentarAve(comida){
 		ave.comer(comida)
+		cenas = cenas + 1
 	}
 }
